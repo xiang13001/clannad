@@ -20,7 +20,7 @@ import org.jdatepicker.impl.JDatePickerImpl;
 @SuppressWarnings("serial")
 public class DatePicker extends JDatePickerImpl {
 	
-	  private JFormattedTextField formattedTextField;
+	  private JFormattedTextField formattedTextField;\\what
 	  AbstractFormatter formatter;
 
 
