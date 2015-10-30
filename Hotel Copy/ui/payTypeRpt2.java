@@ -24,7 +24,7 @@ import javax.swing.border.LineBorder;
 public class payTypeRpt2 extends JComponent {
 
 	private BufferedImage background;
-	private Controller ctrl;
+	private Controller ctrl;\\test
 	
 	public payTypeRpt2(Controller ctrl, String date, String monthYear) {
 		ArrayList<Double> values = new ArrayList<Double>();
