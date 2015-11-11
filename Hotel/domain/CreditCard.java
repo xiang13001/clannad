@@ -1,7 +1,7 @@
 
 public class CreditCard {
 	String revID,cardName,cardNum,secCode;
-	int expMonth,expYear;
+	int expMonth,expYear;//test edit
 
 	public String getRevID() {
 		return revID;
