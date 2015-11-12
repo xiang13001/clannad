@@ -7,7 +7,7 @@ public class RevDetail {
 	Date StartDate,EndDate,In_DateTime,RevDateTime,OutDateTime;
 	int PayType,Person;
 	public int getPerson() {
-		return Person;
+		return Person+3;
 	}
 	public void setPerson(int person) {
 		Person = person;
@@ -19,7 +19,7 @@ public class RevDetail {
 		RoomID = roomID;
 	}
 	
-	Object[][] roomDetail;
+
 	
 	public Object[][] getRoomDetail() {
 		return roomDetail;
