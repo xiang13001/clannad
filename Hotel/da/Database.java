@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 
 public class Database 
 {
-	Connection dbConn = null;
+Connection dbConn = null;
     PreparedStatement statement = null;
     String dbURL="jdbc:sqlserver://localhost:1433;DatabaseName=Hotel";   
 
