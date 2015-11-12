@@ -33,7 +33,9 @@ public class DatePicker extends JDatePickerImpl {
 	  public void setText(String str)
 	  {
 		  formattedTextField = new JFormattedTextField(formatter);
+
 		  formattedTextField.setText(str);//test changing
+
 	  }
 	
 
