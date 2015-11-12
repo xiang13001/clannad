@@ -32,13 +32,13 @@ public class Database
 		try   
 		{     
 			dbConn=DriverManager.getConnection(dbURL,userName,userPwd);     
-			System.out.println("连接数据库成功");
+			System.out.println("连接数据库sucess");
 			//testBulkInsert();
 		}
 		catch(Exception e)   
 		{     
 			e.printStackTrace();     
-			System.out.println("连接失败");   
+			System.out.println("连接fail");   
 		}
 	}
 	

@@ -1,5 +1,5 @@
 
-public class Room {
+public class Room { 
 	private String Room_ID,Room_Num,Type_ID,Status;
 	private int Seleted;
 
@@ -10,6 +10,7 @@ public class Room {
 	public void setRoom_ID(String room_ID) {
 		Room_ID = room_ID;
 	}
+
 
 	public String getRoom_Num() {
 		return Room_Num;
