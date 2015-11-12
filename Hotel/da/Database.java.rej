@@ -1,0 +1,17 @@
+diff a/Hotel/da/Database.java b/Hotel/da/Database.java	(rejected hunks)
+@@ -34,13 +34,13 @@
+ 		try   
+ 		{     
+ 			dbConn=DriverManager.getConnection(dbURL,userName,userPwd);     
+-			System.out.println("�������ݿ�ɹ�");
++			System.out.println("�������ݿ�sucess");
+ 			//testBulkInsert();
+ 		}
+ 		catch(Exception e)   
+ 		{     
+ 			e.printStackTrace();     
+-			System.out.println("����ʧ��");   
++			System.out.println("����fail");   
+ 		}
+ 	}
+ 	
