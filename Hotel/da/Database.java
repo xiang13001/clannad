@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Vector;
+
 
 
 public class Database 
 {
-	Connection dbConn = null;
+Connection dbConn = null;
     PreparedStatement statement = null;
     String dbURL="jdbc:sqlserver://localhost:1433;DatabaseName=Hotel";   
 
