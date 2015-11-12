@@ -6,7 +6,7 @@ public class Customer
 	int Age;
 	
 	public String getCus_ID() {
-		return Cus_ID;
+		return Cus_ID+"a";
 	}
 	public void setCus_ID(String cus_ID) {
 		Cus_ID = cus_ID;
