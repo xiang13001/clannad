@@ -19,7 +19,7 @@ public class RevDetail {
 		RoomID = roomID;
 	}
 	
-	Object[][] roomDetail;
+	Object[][] RoomDetail;
 	
 	public Object[][] getRoomDetail() {
 		return roomDetail;
